@@ -1,0 +1,14 @@
+spring:
+  profiles.active: dev
+  batch:
+    job:
+      enabled: false
+
+watched:
+  path:
+    drop: ${DROP_FOLDER:${HOME}/test/dropfolder}
+    inprogress: ${INPROGRESS_FOLDER:${HOME}/test/inprogress}
+    completed: ${COMPLETED_FOLDER:${HOME}/test/completed}
+
+chunk:
+  size: ${CHUNK_SIZE:50}
