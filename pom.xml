@@ -17,7 +17,7 @@
     <properties>
         <application.name>spring-batch-hazelcast-${project.parent.version}</application.name>
         <janino.version>2.7.8</janino.version>
-        <logstash-logback-encoder.version>4.8</logstash-logback-encoder.version>
+        <logstash-logback-encoder.version>6.2</logstash-logback-encoder.version>
         <hazelcast.version>3.8</hazelcast.version>
     </properties>
 
